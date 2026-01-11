@@ -21,3 +21,7 @@ function calculate(float $a, float $b, string $op): ?float
             return null;
     }
 }
+
+echo calculate(10, 5, '+'); // 15
+
+
