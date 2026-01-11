@@ -7,3 +7,6 @@ function sanitizeFileName(string $filename): string
 
     return $filename;
 }
+
+echo sanitizeFileName("My CV 2026!!.PDF");
+
